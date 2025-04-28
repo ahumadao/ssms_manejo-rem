@@ -64,7 +64,7 @@ import_rem <- function(
 }
 
 # 
-# # —— Ejemplos de uso ——
+# # 4.1 Ejemplos de uso ----
 # # Cargar TODOS los REM de enero-febrero y marzo-diciembre:
 # data_rem_all <- import_rem()
 # 
