@@ -72,12 +72,6 @@ import_rem <- function(
 # data_rem_sel <- import_rem(codes = c(13100, 15000))
 
 
-# 5. Importo el/los establecimientos que necesito. ----
-
-data_rem <- import_rem(codes = 13100) |> 
-  group_by(codigo_establecimiento, seccion, codigo, glosa) |>
-  summarise(total = sum(total, na.rm = TRUE))
-
 
 
 
